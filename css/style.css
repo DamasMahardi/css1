@@ -1,0 +1,174 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin-bottom: 5rem;
+    margin-bottom: 5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+/* from */
+
+.recruitment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/* Style untuk container-form */
+#container-form {
+    width: 35%;
+    padding-right: 1rem;
+    margin-top: 5rem;
+}
+
+/* Style untuk recruitment-form-dialog */
+.recruitment-form-dialog {
+    padding: 2rem;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+}
+
+/* Style untuk logo */
+.recruitment-form-dialog img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style untuk title dan caption */
+.recruitment-form-dialog h3.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.recruitment-form-dialog p.caption {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Style untuk form-group */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Style untuk label */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Style untuk input dan select */
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Style untuk submit button */
+#loginBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.footer li a img {
+    display: block;
+    margin: 0 auto;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.web_url {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+/* from */
+
+
+
+.container-vectorize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 5rem;
+}
+
+.wrapper-image {
+    position: relative;
+    width: 70%;
+    height: 70%;
+}
+
+.vector-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.vector-background img {
+    max-width: 80%;
+    max-height: 100%;
+    margin: auto;
+}
